@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekainime</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Titan+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <video class="bgVideo" autoplay muted loop>
+                <source src="/assets/video/bg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="content">
+                <h1>SEKAINIME.</h1>
+                <p>Nonton anime terbaik dengan kualitas luar biasa. Cari anime favoritmu!</p>
+            </div>
+        </div>
+
+        <nav>
+            <div class="menu-container">
+                <ul class="left">
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#animeList">Anime List</a></li>
+                    <li><a href="#newsRelease">News Release</a></li>
+                </ul>
+            </div>
+            <button id="darkModeToggle" class="dark-mode-toggle">
+                <i id="darkModeIcon" class="fa-solid fa-moon"></i>
+            </button>
+            <div id="hamburger" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="trending" class="card">
+                <h1>Trending Anime <i class="fa-solid fa-fire" style="color: rgb(243, 134, 0);"></i></h1>
+                <div class="wrapper">
+                    <div class="item">
+                        <img src="/assets/img/onepiece.jpg" alt="One Piece">
+                        <h3>One Piece</h3>
+                        <ul class="stars">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li>(5.0)</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/demonslayer.jpg" alt="Jujutsu Kaisen">
+                        <h3>Demon Slayer</h3>
+                        <ul class="stars">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li>(4.9)</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/jujutsukaisen.jpg" alt="Demon Slayer">
+                        <h3>Jujutsu Kaisen</h3>
+                        <ul class="stars">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li>(4.4)</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Jelajahi kumpulan anime terpopuler saat ini yang berhasil meraih popularitas luar biasa di kalangan
+                    penonton! Di sini, Anda akan menemukan pilihan anime terbaru yang tidak hanya menarik perhatian,
+                    tetapi juga menawarkan cerita yang mendalam dan karakter yang kompleks. Dari petualangan epik hingga
+                    drama emosional, setiap judul dalam daftar ini telah berhasil mencuri hati penonton dan menciptakan
+                    momen tak terlupakan.</p>
+            </article>
+
+            <article id="animeList" class="card">
+                <h1>Anime List <i class="fa-solid fa-list"></i></h1>
+                <div class="wrapper card">
+                    <div class="item">
+                        <img src="/assets/img/onepiece.jpg" alt="One Piece">
+                        <h3>One Piece</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/demonslayer.jpg" alt="Demon Slayer">
+                        <h3>Demon Slayer</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/jujutsukaisen.jpg" alt="Jujutsu Kaisen">
+                        <h3>Jujutsu Kaisen</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/hunterxhunter.jpg" alt="Hunter x Hunter">
+                        <h3>Hunter x Hunter</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/aot.jpg" alt="Attack on Titan">
+                        <h3>Attack on Titan</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/sololeveling.jpg" alt="Solo Leveling">
+                        <h3>Solo Leveling</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/haikyu.jpg" alt="Haikyu">
+                        <h3>Haikyu</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/spy.jpg" alt="Spy x Family">
+                        <h3>Spy x Family</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/knb.jpg" alt="Kuroko no Basketball">
+                        <h3>Kuroko no Basketball</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/aftertherain.jpg" alt="After The Rain">
+                        <h3>After The Rain</h3>
+                    </div>
+
+                </div>
+                <p>Jelajahi koleksi ini dan temukan anime yang paling cocok dengan seleramu. Apakah kamu lebih suka
+                    cerita yang penuh aksi dan pertarungan epik, atau mungkin kamu lebih menyukai anime dengan fokus
+                    pada hubungan dan pengembangan karakter? Kami memiliki semuanya di sini! Jadi, duduk santai, pilih
+                    anime favoritmu, dan mulailah menikmati pengalaman menonton yang tak terlupakan</p>
+
+            </article>
+
+            <article id="newsRelease" class="card">
+                <h1>News Release</h1>
+                <div class="wrapper">
+                    <div class="item">
+                        <h3>Kimetsu no yaiba - Juli 2024</h3>
+                        <p>Kimetsu no Yaiba telah berhasil mencuri hati jutaan penggemar di seluruh dunia dengan animasi
+                            yang
+                            memukau dan alur cerita penuh emosi. Kini, di tahun 2025, serial ini kembali menghadirkan
+                            arc baru
+                            yang siap mengguncang dunia anime: Puncak Takdir (Unmei no Mine). Arc ini menjadi puncak
+                            dari
+                            seluruh perjalanan Tanjiro Kamado dan para pemburu iblis dalam melawan ancaman terbesar,
+                            Muzan
+                            Kibutsuji.</p>
+                        <p>
+                            Arc Puncak Takdir dijadwalkan rilis pada musim panas 2025. Penggemar di seluruh dunia sangat
+                            antusias untuk menyaksikan bagaimana kisah epik ini akan berakhir. Banyak yang berspekulasi
+                            bahwa
+                            arc ini akan menjadi salah satu puncak dalam sejarah anime, mengingat pertempuran yang akan
+                            terjadi
+                            dan emosi yang dibangun selama bertahun-tahun.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>Solo Leveling - Agustus 2024</h3>
+                        <p>Solo Leveling telah mengukir namanya sebagai salah satu webtoon dan anime paling populer
+                            dengan kisah yang memukau dan karakter-karakter yang tak terlupakan. Kini, musim baru yang
+                            sangat dinanti-nantikan siap hadir, membawa judul "Pertarungan Tak Terduga" (Unexpected
+                            Battle) yang akan mengubah segala hal dalam perjalanan Jinwoo Sung.</p>
+                        <p>
+                            Musim baru Solo Leveling dijadwalkan rilis pada musim dingin 2024. Antusiasme penggemar
+                            semakin meningkat, menunggu bagaimana cerita ini akan berkembang dan bagaimana Jinwoo akan
+                            menghadapi tantangan yang lebih besar. Banyak yang berspekulasi bahwa musim ini akan menjadi
+                            salah satu yang paling mendebarkan dalam sejarah Solo Leveling, mengingat pertarungan yang
+                            akan terjadi dan hubungan yang semakin dalam antar karakter.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <article class="card">
+                <header>
+                    <h1>Ongoing Anime</h1>
+                </header>
+                <section>
+                    <div class="item">
+                        <img src="/assets/img/onepiece.jpg" alt="One Piece">
+                        <table>
+                            <tr>
+                                <th>Judul</th>
+                                <td>One Piece</td>
+                            </tr>
+                            <tr>
+                                <th>Episode</th>
+                                <td>1119</td>
+                            </tr>
+                            <tr>
+                                <th>Update to</th>
+                                <td>1120</td>
+                            </tr>
+                            <tr>
+                                <th>Release on</th>
+                                <td>September 22th</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Copyright &#169; SEKAINIME | <i class="fa-brands fa-instagram"></i> sekainime.id</p>
+    </footer>
+
+</body>
+
+<script src="/assets/js/main.js"></script>
+
+</html>
